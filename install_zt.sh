@@ -2,7 +2,7 @@
 
 # === 安装配置 ===
 INSTALL_PATH="/usr/local/bin/zt"
-REMOTE_SCRIPT_URL="https://raw.githubusercontent.com/zeyu8023/ugreen-icon-replacer/main/replace_icons.sh"
+REMOTE_SCRIPT_URL="https://raw.githubusercontent.com/zifeng-chen/ugreen-icon-replacer/main/replace_icons.sh"
 
 # === 权限检查 ===
 if [[ $EUID -ne 0 ]]; then

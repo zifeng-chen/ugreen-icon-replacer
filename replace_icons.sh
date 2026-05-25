@@ -4,7 +4,7 @@
 TARGET_DIR="/ugreen/static/icons"
 CACHE_DIR="$HOME/.ugreen_icon_cache"
 CONFIG_FILE="$HOME/.ugreen_icon_config"
-REPO_MAIN="https://github.com/zeyu8023/ugreen-icon-replacer"
+REPO_MAIN="https://github.com/zifeng-chen/ugreen-icon-replacer"
 REPO_MIRROR="https://download.fastgit.org/zeyu8023/ugreen-icon-replacer"
 ZIP_PATH="/archive/refs/heads/main.zip"
 ZIP_FILE="icons.zip"
