@@ -4,6 +4,8 @@
 
 本项目是一个用于快速替换 UGOS PRO 系统图标的终端脚本工具，支持多套图标风格、联网自动下载、代理加速、自动解压和覆盖替换。适用于绿联 NAS 图标定制与美化。
 
+> **当前由 [陈子疯（@zifeng-chen）](https://github.com/zifeng-chen) 迭代维护**，基于原作者 [zeyu8023](https://github.com/zeyu8023) 的优秀开源项目进行扩展和优化。感谢原作者的付出与贡献！🙏
+
 ---
 
 ## ⚠️ 权限说明
@@ -26,7 +28,7 @@ bash zt
 #### GitHub 地址：
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/zeyu8023/ugreen-icon-replacer/main/replace_icons.sh)
+bash <(curl -s https://raw.githubusercontent.com/zifeng-chen/ugreen-icon-replacer/main/replace_icons.sh)
 ```
 
 #### Gitee 地址（由 [@Dear-Chen](https://github.com/Dear-Chen) 制作及维护）：
@@ -38,7 +40,7 @@ bash <(curl -s https://gitee.com/Dear-Chen/ugreen-icon-replacer/raw/main/replace
 ### 方法二：手动下载运行
 
 ```bash
-git clone https://github.com/zeyu8023/ugreen-icon-replacer.git
+git clone https://github.com/zifeng-chen/ugreen-icon-replacer.git
 cd ugreen-icon-replacer
 chmod +x replace_icons.sh
 sudo ./replace_icons.sh
@@ -47,7 +49,7 @@ sudo ./replace_icons.sh
 ### 方法三：安装为命令（zt）
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/zeyu8023/ugreen-icon-replacer/main/install_zt.sh)
+bash <(curl -s https://raw.githubusercontent.com/zifeng-chen/ugreen-icon-replacer/main/install_zt.sh)
 ```
 
 安装后可直接运行：
@@ -139,7 +141,13 @@ ugreen-icon-replacer/
 
 ## 📄 更新日志
 
-当前版本：**v1.3.1**
+当前版本：**v1.4.0**
+
+### v1.4.0 (2026-05-29) by 陈子疯
+- 🔧 Fork 并迁移仓库至 zifeng-chen/ugreen-icon-replacer
+- ➕ 新增 25 个 com.ugreen.* 前缀图标支持（适配 UGOS PRO 新版应用）
+- 🎨 锤子 OS 主题持续迭代更新中（安全管家、迅雷、帮助中心、UGREEN AI、回收站等自定义图标）
+- 📝 更新 README，补充维护者信息与使用说明
 
 查看完整更新记录：[CHANGELOG.md](https://github.com/zeyu8023/ugreen-icon-replacer/blob/main/CHANGELOG.md)
 
@@ -147,10 +155,10 @@ ugreen-icon-replacer/
 
 ## 🙌 致谢与贡献
 
-图标资源由社区成员贡献整理：
-
-- 🎨 乐小宇（@zeyu8023）：iOS 26 玻璃风格
-- 🧊 Sunny：SmartisanOS（整理）、玻璃拟物、绿联毛玻璃系列
+- 🏗️ **原作者 [zeyu8023](https://github.com/zeyu8023)**：创建了优秀的绿联 NAS 图标替换项目，感谢开源分享！
+- 🎨 **乐小宇（@zeyu8023）**：iOS 26 玻璃风格
+- 🧊 **Sunny**：SmartisanOS（整理）、玻璃拟物、绿联毛玻璃系列
+- 👤 **陈子疯（@zifeng-chen）**：当前维护者，持续迭代锤子 OS 主题图标
 
 欢迎提交 Issue 和 PR，持续完善脚本、扩展风格或优化执行体验！
 
